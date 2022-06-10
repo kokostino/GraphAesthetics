@@ -1,6 +1,11 @@
 # GraphAesthetics
+---
+Goal: Predict images which share the same aesthetic
 
-Link Prediction
+Method: Link prediction between nodes containing colour, feature, and CV information of images. Pre-processing [can be found here](https://github.com/kokostino/GraphAesthetics-PreProcessing).
 
-- Node2vec + LightGBM
-- Graph Autoencoder
+Currently under development, notebooks so far:
+
+- Node2vec + LightGBM (nx + sklearn)
+- Graph Autoencoder (Pytorch Geometric)
+- GraphSAGE (stellargraph + tensorflow)
