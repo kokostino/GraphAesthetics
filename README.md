@@ -7,6 +7,6 @@ Method: Link prediction between nodes containing colour, feature, and CV informa
 Currently under development on toy data, notebooks so far:
 
 - Node2vec + LightGBM (nx + sklearn)
-- Graph Autoencoder (pytorch geometric)
+- GAE (pytorch geometric)
 - GraphSAGE (stellargraph + tensorflow)
 - GraphSAGE, GCN, GIN (pytorch geometric)
